@@ -28,7 +28,7 @@ class Buscador extends Component {
             <input
               type="submit"
               className="btn btn-lg btn-danger btn-block"
-            value="Buscar..."
+            value="Search"
             />
           </div>
         </div>
