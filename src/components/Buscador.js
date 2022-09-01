@@ -23,6 +23,7 @@ class Buscador extends Component {
               className="form-control form-control-lg"
               placeholder="Busca tu Imagen. Ejemplo: Futbol"
             />
+            
           </div>
           <div className="form-group col-md-4">
             <input
