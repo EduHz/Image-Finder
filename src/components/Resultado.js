@@ -15,9 +15,9 @@ class Resultado extends Component {
             <Imagen key={imagen.id} imagen={imagen} />
           ))}
         </div>
-        <Paginacion 
-        paginaAnterior={this.props.paginaAnterior}
-        paginaSiguiente={this.props.paginaSiguiente}
+        <Paginacion
+          paginaAnterior={this.props.paginaAnterior}
+          paginaSiguiente={this.props.paginaSiguiente}
         />
       </>
     );

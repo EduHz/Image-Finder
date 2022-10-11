@@ -10,11 +10,9 @@ class App extends Component {
   };
 
   scroll = () => {
-    const elemento = document.querySelector('.jumbotron');
-    elemento.scrollIntoView('smooth', 'start');
-  }
-
-
+    const elemento = document.querySelector(".jumbotron");
+    elemento.scrollIntoView("smooth", "start");
+  };
 
   paginaAnterior = () => {
     let pagina = this.state.pagina;
@@ -23,12 +21,15 @@ class App extends Component {
 
     pagina -= 1;
 
-    this.setState({
-      pagina,
-    }, () => {
-      this.consultarApi();
-      this.scroll(); 
-    });
+    this.setState(
+      {
+        pagina,
+      },
+      () => {
+        this.consultarApi();
+        this.scroll();
+      }
+    );
 
     console.log(pagina);
   };
@@ -39,13 +40,16 @@ class App extends Component {
     //Sumar uno a la pagina actual
     pagina += 1;
     //Agregar el cambio al state
-    this.setState({
-      //siempre para hacer cambios en el state, se utiliza setState!!
-      pagina,
-    }, () => {
-      this.consultarApi();
-      this.scroll();
-    });
+    this.setState(
+      {
+        //siempre para hacer cambios en el state, se utiliza setState!!
+        pagina,
+      },
+      () => {
+        this.consultarApi();
+        this.scroll();
+      }
+    );
 
     console.log();
   };
