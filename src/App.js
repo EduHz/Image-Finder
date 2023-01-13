@@ -81,7 +81,7 @@ class App extends Component {
     return (
       <div className="app container">
         <div className="jumbotron">
-          <p className="lead text-center">Buscador de Imágenes</p>
+          <p className="lead text-center">Image Browser</p>
           <Buscador datosBusqueda={this.datosBusqueda} />
         </div>
         <div className="row justify-content-center">

@@ -8,8 +8,8 @@ const Imagen = (props) => {
       <div className="card">
         <img src={previewURL} alt={tags} className="card-img-top" />
         <div className="card-body">
-          <p className="card-text">{likes} Me gusta </p>
-          <p className="card-text">{views} Vistas </p>
+          <p className="card-text">{likes} Likes </p>
+          <p className="card-text">{views} Views </p>
 
           <a
             href={largeImageURL}
@@ -18,7 +18,7 @@ const Imagen = (props) => {
             className="btn btn-primary
                      btn-block"
           >
-            Ver Imagen{" "}
+            View Image{" "}
           </a>
         </div>
       </div>

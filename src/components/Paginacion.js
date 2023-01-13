@@ -9,14 +9,14 @@ const Paginacion = (props) => {
         type="butoon"
         className="btn btn-info mr-1"
       >
-        Anterior &larr;
+        Previuos &larr;
       </button>
       <button
         onClick={props.paginaSiguiente}
         type="butoon"
         className="btn btn-info"
       >
-        Siguiente &rarr;
+        Next &rarr;
       </button>
     </div>
   );
