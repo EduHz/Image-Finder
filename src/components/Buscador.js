@@ -5,7 +5,6 @@ class Buscador extends Component {
 
   obtenerDatos = (e) => {
     e.preventDefault();
-
     //tomamos el valor del input
     const termino = this.busquedaRef.current.value;
     // Y lo enviamos al componente principal
